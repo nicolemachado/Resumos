@@ -1,0 +1,28 @@
+.container{
+  margin: 100px 50px 50px 50px;
+  width: 93%;
+  border: 1px solid rgb(39, 9, 66);;
+  border-radius: 20px;
+}
+
+.text{
+  margin: 30px 20px;
+  color: rgb(39, 9, 66);
+}
+
+.p1{
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.text2{
+  margin: 30px 20px;
+  font-size: 20px;
+  color: rgb(39, 9, 66);;
+}
+
+.p2{
+  margin-left: 40px;
+  font-size: 16px;
+}
