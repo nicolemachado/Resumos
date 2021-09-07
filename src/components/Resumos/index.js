@@ -22,7 +22,7 @@ function ResumosJS() {
             <li>Array {'[]'}</li>
           </ul>
       </p>
-      <h2 className="text2" >➪ Operadores Atirméticos </h2>
+      <h2 className="text2" >➪ Operadores Aritméticos </h2>
       <p className="p2">
         Adição <br /> Subtração <br /> Multiplicação <br /> Divisão <br />
         <br />
