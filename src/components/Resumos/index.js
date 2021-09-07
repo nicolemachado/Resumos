@@ -40,7 +40,7 @@ function ResumosJS() {
         == igual a <br />
         != diferente de <br />
         === igual a e do mesmo tipo <br />
-        !== dferente de mas do mesmo tipo <br />
+        !== diferente de mas do mesmo tipo <br />
         {'>'} maior que <br />
         {'<'} menor que <br />
         {'>='} maior ou igual a<br />
@@ -60,7 +60,7 @@ function ResumosJS() {
       Funções são blocos de códigos que trazem instruções para o JS. <br />
       Pode ou não retornar algo. <br />
       Os parênteses {'()'} indicam que é uma função, eles recebem os argumenos {'(que devem ser separados por vírgula)'}. <br />
-      As chaves {'{}'} é onde fica o corpo da função.<br />
+      Dentro das chaves {'{}'} é onde fica o corpo da função.<br />
       Ela precisa ser definida com um nome, e depois tem que ser chamada.
       </p> 
 
@@ -68,7 +68,7 @@ function ResumosJS() {
       <p className="p2">
       O operador unário tenta converter o número. Concatenar valores.<br />
       De string para number<br />
-      o - converte para negativoconverte um operando em um número e nega o valor depois dele.<br />
+      o - converte para negativo, converte um operando em um número e nega o valor depois dele.<br />
       o + converte um operando em um número.<br />   
       </p> 
 
@@ -83,7 +83,7 @@ function ResumosJS() {
 
       <h2 className="text2" >➪ Instruções Condicionais </h2>
       <p className="p2">
-      Testar valor ou condição para relizar uma ação {'(conteúdo)'}, reescrever variáveis, etc.<br />
+      Testar valor ou condição para realizar uma ação {'(conteúdo)'}, reescrever variáveis, etc.<br />
       Tomar decisões no JS.<br />
       if = se <br />
       else = caso contrário <br />
@@ -116,9 +116,9 @@ function ResumosJS() {
 
       <h2 className="text2" >➪ Operador Condicional Ternário </h2>
       <p className="p2">
-      É uma forma de fazer testes sem precisar de instruições condicionais. <br />
+      É uma forma de fazer testes sem precisar de instruções condicionais. <br />
       Substituir um if/else, deixando o código mais curto.<br />
-      Uma expressão é avaliada como true ou false.<br />
+      Uma expressão é avaliada como true ou false.<br /><br />
       Sintaxe: condition ? expr1 : expr2.<br />
       As expressões podem ser de qualquer tipo.
       </p> 
@@ -181,7 +181,7 @@ function ResumosJS() {
       push {'()'} = empurra/acrescenta coisas no array<br />
       2 formas:<br />
       - sobrescrevendo o array<br />
-      - push no array<br />
+      - push no array<br /><br />
       for = tudo que o while faz, só que de uma vez só.
       </p> 
 
@@ -279,12 +279,15 @@ function ResumosJS() {
       - For = adiciona coisas em mais de uma classe. Acessa um array, tanto HTML collection quanto array de verdade. Muda o HTML.<br />
       HTML collection != de array<br /> 
       HTML colletcion = array apenas com HTML<br />
-      Array = pode ter qualquer valor<br />
-      <br />
-      - Foreach = recebe uma função. Acessa um elemento index diretamente. Só percorre prototype array.<br /> Também da pra muda. <br /><br />
+      Array = pode ter qualquer valor<br /><br />
+
+      - Foreach = recebe uma função. Acessa um elemento index diretamente. Só percorre prototype array.<br /> 
+      Também da para mudar. <br /><br />
+
       - Map = só percorre arrays, parecido com o foreach. Altera diretamente o element.<br />
       Clone de dados com o map.<br /><br />
-      - While = percorre enquanto a condição for true, e não para se não houver um break{'(limite definido'} <br />
+
+      - While = percorre enquanto a condição for true, e não para se não houver um break {'(limite definido'} <br />
       var de escopo global pode ser acessada no while.
 
       </p> 
@@ -319,7 +322,7 @@ function ResumosJS() {
         - Hover = quando o mouse passa por cima de algo, não há necessidade do click. <br />
         É como se fosse o "depois" de algo.<br /><br />
         classList.add = adiciona classe no evento <br />
-        * o atributo {'< this >'} dá refer~encia ao elemento do escopo atual {'(função)'}.
+        * o atributo {'< this >'} dá refer~encia ao elemento do escopo atual {'(função)'} *.
         <br />
         mouseover = mouse passa em cima.<br />
         mouseleave = mouse sai de cima.<br /><br />
